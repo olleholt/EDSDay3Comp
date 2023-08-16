@@ -1,0 +1,37 @@
+---
+title: "Day3Comp"
+format: html
+editor: visual
+---
+
+## Conditional Statement
+
+```{r}
+temp <- 98.2
+
+if (temp > 97) {
+  print("its real hot, jump in the ocean")
+} else
+  print("no temperature warning")
+```
+
+Create an if else statement for blue whale lengths.
+
+create a variable blue whale, which has a value of 40 meters.
+
+add an if else statement that returns "GIANT" if \>35
+
+medium if 20\<x\<35 or
+
+small if \<=20
+
+```{r}
+whale_length <- 26
+
+if (whale_length >35) {
+  print("GIANT")
+} else if (whale_length >= 20 & whale_length<=35) {
+  print("MEDIUM")
+} else if (whale_length <= 20) {print("SMALL")}
+
+```
